@@ -8,7 +8,7 @@ Git과 파일을 다룰 수 있는 Claude Code 또는 Codex라면 아래 명령�
 git clone https://github.com/qwer777qq/goni-opus55-shorts-skill.git
 ```
 
-Claude 웹 채팅만 쓰는 경우에는 GitHub 저장소의 **Code → Download ZIP**을 선택합니다. `SKILL.md`, `references/`, `scripts/`가 ZIP 맨 위에 오도록 구성한 다음 Claude의 **Customize → Skills**에서 업로드합니다. 설치 후 새 채팅에서 `opus55-motion-graphics` 스킬을 불러오라고 요청합니다. 웹 채팅에 파일·터미널 도구가 없다면 Git 명령을 실행할 수 없으므로 ZIP 업로드 방식이 필요합니다.
+Claude 웹 채팅만 쓰는 경우에는 [Claude Skills 업로드용 ZIP](https://github.com/qwer777qq/goni-opus55-shorts-skill/releases/latest/download/goni-opus55-shorts-skill-claude-upload.zip)을 내려받아 Claude의 **Customize → Skills**에서 업로드합니다. 설치 후 새 채팅에서 `opus55-motion-graphics` 스킬을 불러오라고 요청합니다. 웹 채팅에 파일·터미널 도구가 없다면 Git 명령을 실행할 수 없으므로 ZIP 업로드 방식이 필요합니다.
 
 ## 2. 준비물
 

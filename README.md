@@ -22,7 +22,7 @@ git clone https://github.com/qwer777qq/goni-opus55-shorts-skill.git
 - Codex: `~/.codex/skills/opus55-motion-graphics`
 - Claude Code: `~/.claude/skills/opus55-motion-graphics`
 
-Claude 웹에서 Git/파일 도구가 없으면 GitHub의 **Code → Download ZIP**으로 내려받고, `SKILL.md`, `references/`, `scripts/`가 ZIP의 최상위에 오도록 압축해 **Customize → Skills**에서 업로드합니다. 설치 위치와 메뉴는 사용 중인 앱 버전에 따라 다를 수 있습니다.
+Claude 웹에서 Git/파일 도구가 없으면 [Claude Skills 업로드용 ZIP](https://github.com/qwer777qq/goni-opus55-shorts-skill/releases/latest/download/goni-opus55-shorts-skill-claude-upload.zip)을 내려받아 **Customize → Skills**에서 업로드합니다. ZIP의 최상위에 `SKILL.md`, `references/`, `scripts/`가 있습니다. 설치 위치와 메뉴는 사용 중인 앱 버전에 따라 다를 수 있습니다.
 
 ## 레퍼런스 검색
 
