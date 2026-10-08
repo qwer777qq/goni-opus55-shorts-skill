@@ -7,6 +7,8 @@ Claude Opus 5.5와 Codex에서 제품 모션그래픽·세로형 숏폼을 제�
 ## 들어 있는 것
 
 - `SKILL.md`: 레퍼런스 선택부터 최종 영상 검수까지의 작업 절차
+- `CLAUDE.md`: Claude Code에서 저장소를 열면 읽는 작업 지침
+- `PROJECT_INSTRUCTIONS.md`: Claude 웹 프로젝트에 그대로 붙여 넣는 지침과 수강생 사용법
 - `references/videos.json`: 원본 저장소의 영상·프롬프트 513개를 정리한 카탈로그
 - `scripts/find_references.py`: 카테고리·태그·검색어로 참고 사례 찾기
 - `docs/claude-shorts-guide.md`: 실제 ESR 제품 광고 제작 사례와 Claude에 보낸 지시문

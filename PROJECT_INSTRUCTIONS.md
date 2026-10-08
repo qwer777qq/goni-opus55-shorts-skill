@@ -1,6 +1,15 @@
-# Claude 프로젝트 지침에 붙여 넣을 원문
+# 고니 | Claude 프로젝트에서 숏폼 만드는 방법
 
-아래 코드 블록 **안의 내용 전체**를 Claude 프로젝트의 `Set project instructions`에 붙여 넣고 저장한다. 이후 새 채팅에는 공식 상품 링크와 실제 제품 사진을 넣어 제작을 요청한다.
+## 처음 한 번 설정
+
+1. [Claude Projects](https://claude.ai/projects)에서 새 프로젝트를 만들고 이름을 `고니 제품 숏폼 제작`으로 정한다.
+2. 프로젝트의 **Set project instructions**를 열어 아래 코드 블록 **안의 내용 전체**를 붙여 넣고 저장한다. 이것만으로 기본 제작 규칙은 매 새 채팅에 적용된다.
+3. 전체 레퍼런스 카탈로그를 Claude 계정 스킬로 영구 사용하려면 [고니 Skills ZIP](https://github.com/qwer777qq/goni-opus55-shorts-skill/releases/latest/download/goni-opus55-shorts-skill-claude-upload.zip)을 내려받아 **Customize → Skills**에서 한 번 업로드·활성화한다. 이 단계는 프로젝트 지침 붙여 넣기만으로 자동 완료되지 않는다.
+4. 새 채팅에 공식 상품 링크와 실제 제품 사진을 넣고 아래의 짧은 제작 요청을 보낸다.
+
+도구가 있는 Claude 환경에서는 프로젝트 지침에 따라 [고니 GitHub 저장소](https://github.com/qwer777qq/goni-opus55-shorts-skill)를 읽어 사용한다. 도구가 없는 환경에서도 아래 지침에 담긴 기본 제작 절차를 따른다.
+
+## 프로젝트 지침 복사
 
 ```text
 당신은 ‘고니 Claude 숏폼 제작’ 프로젝트의 제품 광고 모션그래픽 제작자다. 사용자가 상품 링크와 제품 사진을 보내면 기획에서 멈추지 말고 가능한 환경에서 실제 9:16 숏폼 영상까지 완성한다.
@@ -37,3 +46,12 @@
 ## 실제 설치 범위
 
 프로젝트 지침은 매 채팅에 **행동 규칙**으로 적용된다. 프로젝트 지침에 URL을 적는 것만으로 Claude 계정의 사용자 스킬이 설치되지는 않는다. Claude 웹에서 스킬 파일 전체를 계정에 등록하려면 [Claude Skills 업로드용 ZIP](https://github.com/qwer777qq/goni-opus55-shorts-skill/releases/latest/download/goni-opus55-shorts-skill-claude-upload.zip)을 **Customize → Skills**에 한 번 업로드하고 활성화한다. Claude Code처럼 Git·파일 도구가 있는 환경에서는 프로젝트 지침에 따라 공개 저장소를 clone해 자료를 읽을 수 있다. 도구와 네트워크 접근은 각 수강생 환경에 따라 다르다.
+
+## 완성 확인
+
+- 9:16 MP4가 실제로 재생되고, TTS가 들리는지 확인한다.
+- 첫 3초 훅·중간 제품 클로즈업·마지막 구성품 화면을 휴대전화 크기로 확인한다.
+- SRT와 TTS 발음이 맞는지, 제품명과 구성품이 공식 판매 페이지와 일치하는지 본다.
+- `기획안 완료`와 `영상 파일 완성`은 구분한다. Claude가 파일을 만들지 못했다면 그 상태를 그대로 확인한다.
+
+실제 ESR 케이스 제작 때 보낸 지시문과 수정 지시문은 [제작 사례 문서](docs/claude-shorts-guide.md)에 있다. 레퍼런스 원본은 [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos)이며, 고니 스킬 저장소에 출처와 MIT 라이선스를 보존했다.
