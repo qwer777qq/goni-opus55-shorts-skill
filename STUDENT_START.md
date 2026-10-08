@@ -1,5 +1,7 @@
 # 고니 수강생 시작하기: Claude로 제품 숏폼 만들기
 
+가장 간단한 시작은 [프로젝트 지침 원문](PROJECT_INSTRUCTIONS.md)의 코드 블록을 Claude 프로젝트의 **Set project instructions**에 붙여 넣는 것입니다. 그러면 새 채팅마다 기본 제작 절차가 적용되고, Git·파일 도구가 있는 환경에서는 이 GitHub 저장소의 스킬을 확인합니다. 아래 설치는 전체 스킬 파일을 Claude 계정에 영구 등록하고 싶을 때 한 번 진행합니다.
+
 ## 1. 스킬 받기
 
 Git과 파일을 다룰 수 있는 Claude Code 또는 Codex라면 아래 명령으로 다운로드합니다.

@@ -2,7 +2,7 @@
 
 Claude Opus 5.5와 Codex에서 제품 모션그래픽·세로형 숏폼을 제작할 때 쓰는 고니 수강생용 스킬입니다. [awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos)의 프롬프트 목록을 검색 가능한 참고 자료로 정리하고, 상품 사진 기반 영상 제작·TTS·자막·출력 검수 절차를 추가했습니다.
 
-**수강생 시작점:** [설치와 복사용 프롬프트](STUDENT_START.md) → [실제 제작 사례](docs/claude-shorts-guide.md)
+**수강생 시작점:** [프로젝트 지침 복사](PROJECT_INSTRUCTIONS.md) → [설치와 복사용 프롬프트](STUDENT_START.md) → [실제 제작 사례](docs/claude-shorts-guide.md)
 
 ## 들어 있는 것
 
@@ -22,7 +22,7 @@ git clone https://github.com/qwer777qq/goni-opus55-shorts-skill.git
 - Codex: `~/.codex/skills/opus55-motion-graphics`
 - Claude Code: `~/.claude/skills/opus55-motion-graphics`
 
-Claude 웹에서 Git/파일 도구가 없으면 [Claude Skills 업로드용 ZIP](https://github.com/qwer777qq/goni-opus55-shorts-skill/releases/latest/download/goni-opus55-shorts-skill-claude-upload.zip)을 내려받아 **Customize → Skills**에서 업로드합니다. ZIP의 최상위에 `SKILL.md`, `references/`, `scripts/`가 있습니다. 설치 위치와 메뉴는 사용 중인 앱 버전에 따라 다를 수 있습니다.
+Claude 웹에서 Git/파일 도구가 없으면 [Claude Skills 업로드용 ZIP](https://github.com/qwer777qq/goni-opus55-shorts-skill/releases/latest/download/goni-opus55-shorts-skill-claude-upload.zip)을 내려받아 **Customize → Skills**에서 업로드합니다. ZIP에는 `opus55-motion-graphics/` 폴더와 그 안의 `SKILL.md`, `references/`, `scripts/`가 있습니다. 설치 위치와 메뉴는 사용 중인 앱 버전에 따라 다를 수 있습니다.
 
 ## 레퍼런스 검색
 
